@@ -8,7 +8,7 @@ CHALLENGE:SetFinishedDesc("Played :goal taunts")
 CHALLENGE:SetID("taunt")
 
 -- This is a homemade hook
--- Please, if your gamemode have a hook regarding tautns, edit this
+-- Please, if your gamemode have another hook regarding taunts, edit this
 -- Else, create a hook with the same name that the one above that is run when a taunt is done by a player
 -- P.S : if there's a Spectator's team, I recommend you to check for it so they can't exploit lmao
 CHALLENGE:AddHook("GetTauntDone", function(self, ply)

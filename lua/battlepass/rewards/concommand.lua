@@ -14,7 +14,7 @@ end
 function REWARD:GetTooltip(reward)
     local wep = concommand.Get(reward)
 
-	// Return command's description
+	// Return commands description
 	return concommand.Description or "Runs a command !"
 end
 

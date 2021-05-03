@@ -37,11 +37,9 @@ function REWARD:Unlock(ply, reward, amount)
 
     // Variables
     local wep = concommand.Get(reward)
-    local command = concommand.Command
 
     // Verification
     if (!wep) then return end
-    if (!command) then return end
 
     // Placeholders
     local sid = ply:SteamID()
@@ -49,11 +47,11 @@ function REWARD:Unlock(ply, reward, amount)
 
     // Replace all occurences
     // We start with sid64 cuz sid would both works with sid64 & sid occurences
-    string.Replace(command, "sid64", sid64)
-    string.Replace(command, "sid", sid)
+    string.Replace(wep, "sid64", sid64)
+    string.Replace(wep, "sid", sid)
     
     // Store the function RCC in a var
-    local eCommand = RunConsoleCommand(command)
+    local eCommand = RunConsoleCommand(wep)
 
     // Execute the command in servers console on claim
     return eCommand

@@ -18,6 +18,7 @@
 - :Free({ Type = "ps2_items", Reward = "ps2_item_name", Name = "Printed name", Description = "Custom description", Display = "Model path", Color = XeninUI.Theme.Green })
 - :Free({ Type = "ps2_random", Reward = "optional", Name = "optional", Description = "optional", Color = XeninUI.Theme.Green })
 - :Free({ Type = "sh_ps", Reward = 1000, Color = XeninUI.Theme.Green })
+- :Free({ Type = "sh_ps_prem", Reward = 25, Color = XeninUI.Theme.Green })
 
   
 #### Made by dotCore  

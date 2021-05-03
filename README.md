@@ -18,5 +18,5 @@ I can't be held as responsible for any damages / issues on your server.
 
 ## Regarding leaks and re-upload
 Do not re-upload these files somewhere else, it would be pointless and you'll surely get rekted by DMCA.
-Also, do not re-upload the whole addon itself here or somewhere else, that's against laws.
-Finally, try to not be a jerk and credit me + Xenin Team if you want to do it on your own from this base.
+Also, do not re-upload the whole addon itself here or somewhere else, that's shitty.
+Finally, try to not be a jerk and always credit authors.

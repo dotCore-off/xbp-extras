@@ -38,4 +38,4 @@ function REWARD:Unlock(ply, reward, amount)
 end
 
 // Reward registration
-REWARD:Register("ps2_random")
+REWARD:Register("sh_ps")

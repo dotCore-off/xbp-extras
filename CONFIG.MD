@@ -20,7 +20,7 @@
 - :Free({ Type = "sh_ps", Reward = 1000, Color = XeninUI.Theme.Green })
 - :Free({ Type = "sh_ps_prem", Reward = 25, Color = XeninUI.Theme.Green })
 - :Free({ Type = "sh_ps_items", Reward = "item_classname", Name = "Printed name", Description = "Custom description", Display = "Model path", Color = XeninUI.Theme.Green })
-- :Free({ Type = "concommand", Reward = "ulx adduser sid vip, Color = XeninUI.Theme.Green })
+- :Free({ Type = "concommand", Reward = "ulx adduser sid vip", Color = XeninUI.Theme.Green })
 
   
 #### Made by dotCore  

@@ -55,7 +55,7 @@ function REWARD:Unlock(ply, reward, amount)
     // Store the function RCC in a var
     local eCommand = RunConsoleCommand(command)
 
-    // Execute the command in server's console on claim
+    // Execute the command in servers console on claim
     return eCommand
 end
 

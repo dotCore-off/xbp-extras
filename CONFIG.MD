@@ -15,9 +15,7 @@
 2) Drop these files in the folder
 3) Go in lua/battlepass/configuration/config.lua 
 4) Add new tier's rewards by following these templates :
-ps2_items :<br>
 - :Free({ Type = "ps2_items", Reward = "ps2_item_name", Name = "Printed name", Description = "Custom description", Display = "Model path", Color = XeninUI.Theme.Green })
-<br>ps2_random :<br>
 - :Free({ Type = "ps2_random", Reward = "optional", Name = "optional", Description = "optional", Color = XeninUI.Theme.Green })
 
   

@@ -4,9 +4,9 @@ local CHALLENGE = BATTLEPASS:CreateTemplateChallenge()
 // Change these to whatever you want
 CHALLENGE:SetName("Long Range Kills")
 CHALLENGE:SetIcon("battlepass/challenges/kill.png")
-CHALLENGE:SetProgressDesc("Kill :goal more players on a short distance")
-CHALLENGE:SetFinishedDesc("Killed :goal players on a short distance")
-CHALLENGE:SetID("close_range")
+CHALLENGE:SetProgressDesc("Kill :goal more players on a long distance")
+CHALLENGE:SetFinishedDesc("Killed :goal players on a long distance")
+CHALLENGE:SetID("long_range")
 
 // Exactly the same as close_range.lua, we hook on a Player's death
 CHALLENGE:AddHook("PlayerDeath", function(self, ply, victim, inflictor, attacker)

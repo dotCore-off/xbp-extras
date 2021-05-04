@@ -1,4 +1,4 @@
-# Last update : 03.05 at 16:38 by dotCore    
+# Last update : 05.05 at 01:44 by dotCore    
   
 ## How to use these files ?  
 
@@ -19,7 +19,7 @@
 - :Free({ Type = "ps2_random", Reward = "optional", Name = "optional", Description = "optional", Color = XeninUI.Theme.Green })
 - :Free({ Type = "sh_ps", Reward = 1000, Color = XeninUI.Theme.Green })
 - :Free({ Type = "sh_ps_prem", Reward = 25, Color = XeninUI.Theme.Green })
-- :Free({ Type = "sh_ps_items", Reward = "item_classname", Name = "Printed name", Description = "Custom description", Display = "Model path", Color = XeninUI.Theme.Green })
+- :Free({ Type = "sh_ps_items", Reward = "item_classname", Name = "Printed name", Display = "Model path", Color = XeninUI.Theme.Green })
 - :Free({ Type = "concommand", Reward = "ulx adduser sid vip", Color = XeninUI.Theme.Green })
 
   

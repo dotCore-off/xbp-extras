@@ -9,7 +9,7 @@ CHALLENGE:SetFinishedDesc("Killed :goal players on a short distance")
 CHALLENGE:SetID("close_range")
 
 // Hook on a Player's death
-CHALLENGE:AddHook("PlayerDeath", function(self, ply, victim, inflictor, attacker)
+CHALLENGE:AddHook("PlayerDeath", function(self, victim, inflictor, attacker)
     // Avoid progress through suicides
     // Handle life's crualty ma dude
     if (victim == attacker) then return end
@@ -23,7 +23,7 @@ CHALLENGE:AddHook("PlayerDeath", function(self, ply, victim, inflictor, attacker
     // We first make sure the Player is the Attacker
     // Then, we look if the Victim is another Player
     // Finally, distance check
-    if (ply == attacker and victim:IsPlayer() and attacker:GetPos():Distance(victim:GetPos()) < shortDistance) then
+    if (self:IsValid() and self == attacker and victim:IsPlayer() and attacker:GetPos():Distance(victim:GetPos()) < shortDistance) then
         self:AddProgress(1)
         self:NetworkProgress()
     end

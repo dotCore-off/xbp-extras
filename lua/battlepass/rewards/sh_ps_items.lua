@@ -41,10 +41,10 @@ function REWARD:Unlock(ply, reward, amount)
 	if (CLIENT) then return end
 
 	// Get the item stored in reward
-	local itm = self:NewItemTable(reward)
+	local itm = SH_POINTSHOP:NewItemTable(reward)
 
 	// Add it to player's inventory
-	return ply:SH_AddItem(itm, true, true)
+	return ply:SH_AddItem(itm)
 end
 
 // Reward registration

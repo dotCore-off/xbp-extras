@@ -15,8 +15,3 @@ Also, note that I'll redirect you to the official support server if you have a p
 These editions have been made by dotCore.
 They're not of the same quality than the original code, and might not be optimized or may not work as expected.
 I can't be held as responsible for any damages / issues on your server.
-
-## Regarding leaks and re-upload
-Do not re-upload these files somewhere else, it would be pointless and you'll surely get rekted by DMCA.
-Also, do not re-upload the whole addon itself here or somewhere else, that's shitty.
-Finally, try to not be a jerk and always credit authors.
